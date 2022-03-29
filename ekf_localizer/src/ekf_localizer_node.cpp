@@ -21,6 +21,9 @@ int main(int argc, char** argv)
   ros::init(argc, argv, "ekf_localizer");
   EKFLocalizer obj;
 
+   //colcon build --packages-select ekf_localizer ekf_localizer
+   //std::cout << "123 \n"; 
+
   ros::spin();
 
   return 0;
